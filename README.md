@@ -36,6 +36,6 @@ The Code is written in Python 3.7 If you don't have Python installed you can fin
 
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
 
-[<img width="159" alt="postgreSQL" src="https://user-images.githubusercontent.com/37532698/108682128-5f5cba00-7509-11eb-9ab4-2cc02f7971c0.png">](https://www.postgresql.org/) [<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=280>](https://gunicorn.org)  
+[![fasttext](https://user-images.githubusercontent.com/37532698/108687654-6affaf00-7510-11eb-9860-27b0757fa58d.png)](https://fasttext.cc/)  
 
 
