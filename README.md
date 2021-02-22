@@ -37,6 +37,6 @@ The Code is written in Python 3.7 If you don't have Python installed you can fin
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
 
 [![fasttext](https://user-images.githubusercontent.com/37532698/108687654-6affaf00-7510-11eb-9860-27b0757fa58d.png)](https://fasttext.cc/)  
-![word2vec](https://user-images.githubusercontent.com/37532698/108687847-a39f8880-7510-11eb-8666-c5e7083e424c.png)(https://www.tensorflow.org/tutorials/text/word2vec)  
+[![word2vec](https://user-images.githubusercontent.com/37532698/108687847-a39f8880-7510-11eb-8666-c5e7083e424c.png)](https://www.tensorflow.org/tutorials/text/word2vec)  
 
 
