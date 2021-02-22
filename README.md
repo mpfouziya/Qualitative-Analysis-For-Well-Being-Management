@@ -1,18 +1,23 @@
 # Qualitative-Analysis-For-Well-Being-Management
-# Customer-Feedabck-Web-Application-Using-Python-PostgreSQL-Flask-and-Heroku
 
 ## Overview
-This is a simple customer feedback Flask app in Heroku using Python. The application uses PostgreSQL at the backend to save the data given into the form.
+Addressing the overall well-being of underserved communities has been a missing part of puzzle in Big Data Science. Every individual should have an equal opportunity to reach their full potential in every sphere of their life, but reality is far behind this. Since so many individuals lack the opportunity to improve their lifestyle, the expulsion of health disparity has been emerged as a major worldwide public health objective. This project focuses on the analysis of the reasons for the prevalence of these problems in a rural community in India and thus preventing those at low cost and high speed. 
 
-## Demo
-Link: [https://lamborginifeedback.herokuapp.com/](https://lamborginifeedback.herokuapp.com/)
+To unveil this, the content of the text data that has been obtained by conducting surveys and informal interviews, are analyzed using two different approaches: (i) Using Word2Vec which helps in understanding the relevant related keywords from the data and (ii) A Text Classification approach using a simple Artificial Neural Network (ANN), whose result is then visualized using a WordCloud. Textual data contains abundant qualitative information that are not easy to undergo a statistical analysis unlike quantitative data. The findings say that, for our data, the combination of Text Classification with Word2Vec provides more efficient results than using those modeling approaches individually, as it can find niche topics and associated vocabularies from the interview data. This project report provides an overview on the qualitative research, the techniques that are used to analyze our textual data for obtaining meaningful information, the limitations of those approaches and suggests some possible ways for further study.
 
-[![form](https://user-images.githubusercontent.com/37532698/108682769-28d36f00-750a-11eb-9ece-6137abd84fd5.jpg)](https://lamborginifeedback.herokuapp.com/)
 
 ## Technical Aspect
 This project is divided into two part:
-1. Creating the front end using HTML and CSS. Use SQLAlchemy as a layer of abstraction to PostgreSQL from Python.
-2. Building and hosting the Flask web app on Heroku.
+1. Data Preprocessing
+    •	Translate and transcribe the data into English language, as the interview data is in Gujarati and Hindi language.
+    •	Prepare the training data.
+    •	Prepare the transcribed interview data to make it ready for analysis.
+    •	Performing advanced simulations on the resulting data:
+       –	Using Word2Vec: Convert each and every word in the data into vector format which will then help to identify the semantic similarities between them.
+       –	Using a Neural Network for text classification: Classify the responses based on the questions which is already been categorized into different groups and identify             the codewords from each group using a Word Cloud.
+    •	Compare the developed models and identify the approach that would help to define our theme “Well Being Management” well.
+
+3. Building the model for extracting the text.
     
 
 ## Installation
