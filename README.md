@@ -9,22 +9,21 @@ To unveil this, the content of the text data that has been obtained by conductin
 ## Technical Aspect
 This project is divided into two part:
 1. Data Preprocessing
-   *    Translate and transcribe the data into English language, as the interview data is in Gujarati and Hindi language.
-   *	Prepare the training data.
-   *	Prepare the transcribed interview data to make it ready for analysis.
+   *  Translate and transcribe the interview data into English language, as the interview data is in Gujarati and Hindi language.
+   *	Prepare the training and interview data into tabular format to make it ready for analysis.
+   *	Apply different NLP techniques like removing stopwords, POS tagging, Named Entity Recognition, Lemmatization, Stemming. 
+   
+
+2. Building the model for extracting the text.
    *	Performing advanced simulations on the resulting data:
        *	Using Word2Vec: Convert each and every word in the data into vector format which will then help to identify the semantic similarities between them.
+          ![cd](https://user-images.githubusercontent.com/37532698/108685570-b82e5180-750d-11eb-9841-9705130b8789.jpg)
        *	Using a Neural Network for text classification: Classify the responses based on the questions which is already been categorized into different groups and identify             the codewords from each group using a Word Cloud.
    *	Compare the developed models and identify the approach that would help to define our theme “Well Being Management” well.
-
-3. Building the model for extracting the text.
     
 
 ## Installation
-The Code is written in Python 3.9.1 If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
-```bash
-pip install -r requirements.txt
-```
+The Code is written in Python 3.7 If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. 
 
 ## Technologies Used
 
