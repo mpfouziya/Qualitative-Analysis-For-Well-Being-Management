@@ -16,13 +16,17 @@ This project is divided into two part:
 
 2. Building the model for extracting the text.
    *	Performing advanced simulations on the resulting data:
-          *	Using Word2Vec: Convert each and every word in the data into vector format which will then help to identify the semantic similarities between them. Following       shows the plot showing the related words near to each other.  
-            ![exercise](https://user-images.githubusercontent.com/37532698/108686018-499dc380-750e-11eb-8ea3-2b8a7abd3b57.jpg)      
+          *	Using Word2Vec: Convert each and every word in the data into vector format which will then help to identify the semantic similarities between them. Following       shows the plot showing the related words near to each other.        
           *	Using a Neural Network for text classification: Classify the responses based on the questions which is already been categorized into different groups and identify             the codewords from each group using a Word Cloud. Following shows the Word Cloud related with disease from our data.
           
             ![cd](https://user-images.githubusercontent.com/37532698/108685570-b82e5180-750d-11eb-9841-9705130b8789.jpg)
           
-   *	Compare the developed models and identify the approach that would help to define our theme “Well Being Management” well.
+   *	Develop connecting graphs to connect similar themes together.Compare the developed models and identify the approach that would help to define our theme “Well Being Management” well. Following is an example graph showing the theme addiction from the data.
+   
+![sm_addiction](https://user-images.githubusercontent.com/37532698/108686776-4fe06f80-750f-11eb-825c-19243eb00ece.jpg)
+
+
+
     
 
 ## Installation
