@@ -9,13 +9,13 @@ To unveil this, the content of the text data that has been obtained by conductin
 ## Technical Aspect
 This project is divided into two part:
 1. Data Preprocessing
-    •	Translate and transcribe the data into English language, as the interview data is in Gujarati and Hindi language.
-    •	Prepare the training data.
-    •	Prepare the transcribed interview data to make it ready for analysis.
-    •	Performing advanced simulations on the resulting data:
-       –	Using Word2Vec: Convert each and every word in the data into vector format which will then help to identify the semantic similarities between them.
-       –	Using a Neural Network for text classification: Classify the responses based on the questions which is already been categorized into different groups and identify             the codewords from each group using a Word Cloud.
-    •	Compare the developed models and identify the approach that would help to define our theme “Well Being Management” well.
+   *    Translate and transcribe the data into English language, as the interview data is in Gujarati and Hindi language.
+   *	Prepare the training data.
+   *	Prepare the transcribed interview data to make it ready for analysis.
+   *	Performing advanced simulations on the resulting data:
+       *	Using Word2Vec: Convert each and every word in the data into vector format which will then help to identify the semantic similarities between them.
+       *	Using a Neural Network for text classification: Classify the responses based on the questions which is already been categorized into different groups and identify             the codewords from each group using a Word Cloud.
+   *	Compare the developed models and identify the approach that would help to define our theme “Well Being Management” well.
 
 3. Building the model for extracting the text.
     
